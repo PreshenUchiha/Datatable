@@ -1,0 +1,6 @@
+﻿/* print.css */
+@media print {
+    .action-buttons {
+        display: none;
+    }
+}
