@@ -22,9 +22,8 @@ namespace Datatable.Controllers
         // GET: Employees
         public async Task<IActionResult> Index()
         {
-              return _context.Employees != null ? 
-                          View(await _context.Employees.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Employees'  is null.");
+
+            return View(await _context.Employees.ToListAsync());
         }
 
         // GET: Employees/Details/5
