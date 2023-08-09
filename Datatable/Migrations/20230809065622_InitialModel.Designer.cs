@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Datatable.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230808122736_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230809065622_InitialModel")]
+    partial class InitialModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
