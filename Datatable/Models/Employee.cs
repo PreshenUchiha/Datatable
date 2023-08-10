@@ -21,5 +21,7 @@ namespace Datatable.Models
         [Required]
         [DataType(DataType.Currency)]
         public decimal Salary { get; set; }
+
+        
     }
 }
